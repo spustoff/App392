@@ -28,9 +28,10 @@ struct Users_3: View {
                 
                 VStack(alignment: .center, spacing: 5, content: {
                     
-                    Text("Don’t miss anything important")
+                    Text("Don’t miss anything\nimportant")
                         .foregroundColor(Color("primary"))
                         .font(.system(size: 28, weight: .semibold))
+                        .multilineTextAlignment(.center)
                 })
                 .multilineTextAlignment(.center)
                 .padding()

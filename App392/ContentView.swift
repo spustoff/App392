@@ -36,7 +36,7 @@ struct ContentView: View {
                 
             } else if isFetched == true {
                 
-                if isBlock == true {
+                if isBlock == false {
                     
                     if status {
                         
@@ -71,7 +71,7 @@ struct ContentView: View {
                         Reviewers_1()
                     }
                     
-                } else if isBlock == false {
+                } else if isBlock == true {
                     
                     if status {
                         
